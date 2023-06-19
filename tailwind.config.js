@@ -6,6 +6,16 @@ export default {
   ],
   theme: {
     extend: {},
+    
+      mytheme: {
+      
+              "primary": "#d7e258",
+            },
+    
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
+  daisyui: {
+    themes: ["light"],
+  },
 }
