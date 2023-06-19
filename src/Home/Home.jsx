@@ -1,17 +1,27 @@
-// import About from "./About";
-// import Banner from "./Banner";
-// import MyProfile from "./MyProfile";
+import About from "./About";
+import Banner from "./Banner";
+import MyProfile from "./MyProfile";
 import Protfolio from "./Protfolio";
+import Blog from "./Blog";
+
+import Contact from "./Contact";
+import Footer from "./Footer";
+
+import Testimonial from "./Testimonial";
 
 
 const Home = () => {
     return (
         <div>
             
-            {/* <Banner></Banner>
+            <Banner></Banner>
             <About></About>
-            <MyProfile></MyProfile> */}
+            <MyProfile></MyProfile>
             <Protfolio></Protfolio>
+            <Testimonial></Testimonial>
+            <Blog></Blog>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
