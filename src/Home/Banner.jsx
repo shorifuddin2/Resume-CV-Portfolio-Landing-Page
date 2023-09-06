@@ -11,9 +11,11 @@ const Banner = () => {
             <div className="hero-content flex-col lg:flex-row-reverse">
                       <img src={Person} className="max-w-sm w-[350px] rounded-lg " />
               <div className="">
-                <h1 className="text-5xl font-bold">Box Office News!</h1>
-                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button className="btn btn-primary">Get Started</button>
+                <h1 className="text-2xl font-bold text-primary">Hi, I am</h1>
+                <h1 className="text-5xl font-bold text-secondary py-2">Jonathon Doe</h1>
+                <h1 className="text-2xl font-bold text-secondary py-2">UI/UX Designer</h1>
+              <p className="py-6">Some shot brief about me. A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                <button className="btn btn-primary">Download CV</button>
               </div>
             </div>
           </div>

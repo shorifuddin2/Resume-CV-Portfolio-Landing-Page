@@ -22,7 +22,7 @@ const Header = () => {
                     
                     </div>
                         <div className="navbar-center hidden lg:flex">
-                        <a className="btn btn-ghost normal-case font-buld text-orange-500 ml-24 text-xl">Protfolio</a>
+                        <a className="btn btn-ghost normal-case font-buld text-primary ml-24 text-xl">Protfolio</a>
                         </div>
                 </div>
                 <div className=" navbar-center hidden lg:flex">
